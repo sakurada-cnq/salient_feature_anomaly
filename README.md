@@ -40,13 +40,13 @@ python preformer_feature.py
 ## Reproducing the results in the paper
 Reproduce the results in Table 3, which shows the frame-level AUC performance on UCF-Crime dataset.
 
-For <img src="https://latex.codecogs.com/svg.image?d_a=64,r=3&space;" title="d_a=64,r=3 " />
+For  <img src="https://latex.codecogs.com/svg.image?d_a=64,r=3&space;" title="d_a=64,r=3 " />
 
 ```
 python test.py --da 64 --r 3 --seed 9111 --test-split-size 28
 ```
 
-For <img src="https://latex.codecogs.com/svg.image?d_a=128,r=7&space;" title="d_a=128,r=7 " /> 
+For  <img src="https://latex.codecogs.com/svg.image?d_a=128,r=7&space;" title="d_a=128,r=7 " /> 
 
 ```
 python test.py --da 128 --r 7 --seed 9111 --test-split-size 28
