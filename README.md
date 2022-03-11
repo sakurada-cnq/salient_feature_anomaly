@@ -10,13 +10,13 @@
 ### 1. Download the extracted I3D features for UCF-crime.
 We use the same features as in [this implementation](https://github.com/tianyu0207/RTFM). 
 
-* Download **UCF-Crime train i3d Google drive** and put them in the `feature/UCF-Train` directory.
+* Download **UCF-Crime train i3d Google drive** and put them in the `features/UCF-Train` directory.
   * You can skip downloading this training data, if you just want to reproduce the results of the paper using the pre-trained model.
-* Download **UCF-Crime test i3d Google drive** and put them in the `feature/UCF-Test` directory.
+* Download **UCF-Crime test i3d Google drive** and put them in the `features/UCF-Test` directory.
 <pre>
 .
 |-- dataset.py
-|-- feature
+|-- features
 |    |-- UCF-Test
 |    |  |-- Abuse028_x264_i3d.npy
 |    |  |-- Abuse030_x264_i3d.npy
