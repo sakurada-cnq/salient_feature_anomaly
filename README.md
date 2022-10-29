@@ -65,4 +65,17 @@ python test.py --da 128 --r 7 --seed 9111 --test-split-size 28
 ```
 python train.py --da 64 --r 3 --seed 1111
 ```
+## Bibtex
+@inproceedings{ICIP_WOHK22,
+    author = {Yudai Watanabe and Makoto Okabe and Yasunori Harada and Naoji Kashima},
+    booktitle = {Proceedings of the IEEE International Conference on Image Processing (ICIP) 2022},
+    pages = {???--???},
+    title = {REAL-WORLD VIDEO ANOMALY DETECTION BY EXTRACTING SALIENT FEATURES},
+    year = {2022}
+}
 
+@article{ARXIV_WOHK22,
+    author = {Yudai Watanabe and Makoto Okabe and Yasunori Harada and Naoji Kashima},
+    journal = {arXiv preprint arXiv:2209.06435},
+    title = {Real-world Video Anomaly Detection by Extracting Salient Features in Videos},
+    year = {2022}}
